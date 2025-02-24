@@ -1,6 +1,5 @@
 #!/bin/bash
-
-#!/bin/bash
+clear
 
 correct_password="unknown-vpn0000"
 
@@ -13,8 +12,6 @@ else
     echo "Incorrect password. Exiting..."
     exit 1
 fi
-
-clear
 
 
 
