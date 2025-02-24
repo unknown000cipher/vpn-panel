@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 
 correct_password="unknown-vpn0000"
 
@@ -13,6 +12,8 @@ else
     exit 1
 fi
 
+#!/bin/bash
+clear
 
 
 echo -e "\e[1;35m*****************************************"
