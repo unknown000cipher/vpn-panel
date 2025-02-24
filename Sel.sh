@@ -1,4 +1,19 @@
 #!/bin/bash
+
+#!/bin/bash
+
+correct_password="unknown-vpn0000"
+
+read -s user_password
+
+if [ "$user_password" == "$correct_password" ]; then
+    echo "Access granted!"
+
+else
+    echo "Incorrect password. Exiting..."
+    exit 1
+fi
+
 clear
 
 
